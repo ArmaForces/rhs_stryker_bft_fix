@@ -1,5 +1,5 @@
-name = "ArmaForces - Cool Addon"
-modname = "armaforces_cool_addon"
+name = "ArmaForces - RHS Stryker BFT Fix"
+modname = "armaforces_rhs_stryker"
 prefix = "armaforces"
 author = "ArmaForces"
 version = "1.0.0"
@@ -7,8 +7,8 @@ files = ["mod.cpp"]
 
 exclude = ["*.psd", "*.png", "*.tga"]
 
-keyname = "{{prefix}}_cool_addon_{{version}}"
-signame = "{{prefix}}_cool_addon_{{version}}"
+keyname = "{{prefix}}_rhs_stryker_{{version}}"
+signame = "{{prefix}}_rhs_stryker_{{version}}"
 reuse_private_key = true
 
 releasebuild = [
@@ -20,12 +20,12 @@ releasebuild = [
 [scripts]
     [scripts.Set_version]
         steps_windows = [
-            "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_cool_addon'"
+            "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_rhs_stryker'"
         ]
         # show_output = true
 
     [scripts.publish]
         steps_windows = [
-            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_cool_addon'"
+            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_rhs_stryker'"
         ]
         show_output = true

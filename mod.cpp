@@ -1,7 +1,7 @@
-name = "ArmaForces - Cool Addon - 0.0.0";
-dir = "@armaforces_cool_addon";
+name = "ArmaForces - RHS Stryker BFT Fix - 0.0.0";
+dir = "@armaforces_rhs_stryker";
 author = "ArmaForces";
 url = "https://github.com/armaforces";
 action = "https://github.com/armaforces";
 actionName = "GitHub";
-logo = "\armaforces_cool_addon\something\data\logo_256_ca.paa";
+logo = "\armaforces_rhs_stryker\bft_fix\data\logo_256_ca.paa";

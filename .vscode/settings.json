@@ -47,7 +47,7 @@
         {
             "language": "sqf",
             "template": [
-                "armaforces_cool_addon_PBO_fnc_",
+                "armaforces_rhs_stryker_PBO_fnc_",
                 "",
                 "File: <<filename>>",
                 "Date: <<filecreated('YYYY-MM-DD')>>",
