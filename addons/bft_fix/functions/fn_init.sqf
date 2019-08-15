@@ -1,7 +1,7 @@
 /*
     armaforces_rhs_stryker_bft_fix_fnc_init
 
-    File: fn_hello.sqf
+    File: fn_init.sqf
     Date: 2019-06-25
     Last Update: 2019-08-15
     License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
