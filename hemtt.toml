@@ -1,0 +1,31 @@
+name = "ArmaForces - Cool Addon"
+modname = "armaforces_cool_addon"
+prefix = "armaforces"
+author = "ArmaForces"
+version = "1.0.0"
+files = ["mod.cpp"]
+
+exclude = ["*.psd", "*.png", "*.tga"]
+
+keyname = "{{prefix}}_cool_addon_{{version}}"
+signame = "{{prefix}}_cool_addon_{{version}}"
+reuse_private_key = true
+
+releasebuild = [
+    "!Set_version",
+    "@zip",
+    "!publish"
+]
+
+[scripts]
+    [scripts.Set_version]
+        steps_windows = [
+            "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_cool_addon'"
+        ]
+        # show_output = true
+
+    [scripts.publish]
+        steps_windows = [
+            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_cool_addon'"
+        ]
+        show_output = true
