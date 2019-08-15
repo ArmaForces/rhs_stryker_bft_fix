@@ -33,7 +33,7 @@ _vehicle setObjectTexture [_sections find "BFT_screen", getText (configFile >> "
     private _scale = _vehicle animationSourcePhase "BFT_Map_Scale";
     _vehicle setUserMFDValue [0, worldSize * _scale];
 
-    if (local _vehicle) then {;
+    if (local _vehicle) then {
 
         private _vehiclePos = getPos _vehicle;
         _vehiclePos resize 2;
