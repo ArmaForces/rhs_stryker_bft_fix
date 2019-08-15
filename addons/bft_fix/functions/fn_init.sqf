@@ -16,7 +16,7 @@
         NOTHING
 */
 params [
-    ["_vehicle", objNull, objNull]
+    ["_vehicle", objNull, [objNull]]
 ];
 
 private _sections = getArray (configFile >> "CfgVehicles" >> typeOf _vehicle >> "hiddenSelections");
