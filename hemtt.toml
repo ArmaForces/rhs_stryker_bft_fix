@@ -26,6 +26,6 @@ releasebuild = [
 
     [scripts.publish]
         steps_windows = [
-            "powershell ./tools/Publish.ps1 {{version}} YOUR_WORKSHOP_ID '@armaforces_rhs_stryker'"
+            "powershell ./tools/Publish.ps1 {{version}} 1835490070 '@armaforces_rhs_stryker'"
         ]
         show_output = true
