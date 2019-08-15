@@ -43,4 +43,4 @@ _vehicle setObjectTexture [_sections find "BFT_screen", getText (configFile >> "
         _vehicle animateSource ["BFT_Map_Move_X", _vehiclePos select 0, true];
         _vehicle animateSource ["BFT_Map_Move_Y", _vehiclePos select 1, true];
     };
-}, 1, _vehicle] call CBA_fnc_addPerFrameHandler;
+}, 0.5, _vehicle] call CBA_fnc_addPerFrameHandler;
